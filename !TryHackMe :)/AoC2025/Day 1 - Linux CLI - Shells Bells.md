@@ -280,6 +280,7 @@ and if we ls -a we can see a sq1.png
 we can use xdg-open sq1.png to see the image:
 
 SS1
+<img width="1888" height="940" alt="Screenshot 2025-12-01 225107" src="https://github.com/user-attachments/assets/2475c166-d72c-4378-8f12-59bbfd3fa54a" />
 
 
 The easter egg says:
