@@ -184,18 +184,23 @@ SS10
 ---
 
 Q: What is the attacker IP found attacking and compromising the web server?
+
 A: 198.51.100.55
 
 Q: Which day was the peak traffic in the logs? (Format: YYYY-MM-DD)
+
 A: 2025-10-12
 
 Q: What is the count of Havij user_agent events found in the logs?
+
 A: 993
 
 Q: How many path traversal attempts to access sensitive files on the server were observed?
+
 A: 658
 
 Q: Examine the firewall logs. How many bytes were transferred to the C2 server IP from the compromised web server?
+
 A: 126167
 
 
