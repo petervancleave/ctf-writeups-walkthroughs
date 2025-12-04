@@ -21,6 +21,7 @@ Start by pulling up all ingested logs to get an overview.
 - index=main: Searches the main index for all events. This returns 18,744 events across both datasets, showing everything available for analysis. 
 
 SS0
+<img width="1876" height="847" alt="day3ss0" src="https://github.com/user-attachments/assets/96c28b2c-b53f-411c-83d9-37195a682a65" />
 
 ## Initial Triage
 
@@ -53,10 +54,12 @@ Return to the Events tab and examine fields for suspicious values.
 - **user_agent**: Click this field in the left panel to view details. It shows legitimate agents (e.g., Mozilla variants) mixed with suspicious ones for further investigation. 
 
 SS1
+<img width="1567" height="817" alt="day3ss1" src="https://github.com/user-attachments/assets/f5b279dc-4d81-44dd-a4a9-262c662f661d" />
 
 - **client_ip**: View client IPs accessing the server. One IP stands out with high activity: 198.51.100.55.
 
 SS2
+<img width="1778" height="805" alt="day3ss2" src="https://github.com/user-attachments/assets/75d0d4ed-1149-4815-ba5e-4e6565370734" />
 
 - **path**: Shows requested URIs, revealing potential attack patterns.
 
@@ -95,6 +98,7 @@ Search for probes of exposed config files.
 - | table _time, path, user_agent, status: Displays selected fields in a table. Results show curl, go-http-client, zgrab user agents with 403/401/404 statuses (denied access). 
 
 SS3
+<img width="1892" height="641" alt="day3ss3" src="https://github.com/user-attachments/assets/41122ba8-5b1c-4a72-8bb4-28d8ea047dcb" />
 
 ### Enumeration (Vulnerability Testing)
 
@@ -105,6 +109,7 @@ Look for path traversal and open redirects.
 - path="*..*" OR path="*redirect*": Searches for traversal (..) or redirect patterns (* wildcards, OR for alternatives). This shows attempted resources. 
 
 SS4
+<img width="1915" height="878" alt="day3ss4" src="https://github.com/user-attachments/assets/bd791599-b657-40e9-b7a4-7f10c0089254" />
 
 Add count: **Query:** index=main sourcetype=web_traffic client_ip="198.51.100.55" AND path="*..\/..\/*" OR path="*redirect*" | stats count by path
 
@@ -113,6 +118,7 @@ Add count: **Query:** index=main sourcetype=web_traffic client_ip="198.51.100.55
 
 
 SS5
+<img width="1900" height="712" alt="day3ss5" src="https://github.com/user-attachments/assets/749f42ea-99de-4579-84cd-8f003be85b1c" />
 
 ### SQL Injection Attack
 
@@ -124,6 +130,7 @@ Identify automated tools and payloads.
 
 
 SS6
+<img width="1903" height="867" alt="day3ss6" src="https://github.com/user-attachments/assets/cda146e2-60a0-4897-aec2-5a9e203f8cdd" />
 
 ### Exfiltration Attempts
 
@@ -135,6 +142,7 @@ Check for downloads of sensitive files.
 
 
 SS7
+<img width="1917" height="862" alt="day3ss7" src="https://github.com/user-attachments/assets/0f3b7935-b42f-49a9-8777-88eba9cf721b" />
 
 ### Ransomware Staging & RCE
 
@@ -146,6 +154,7 @@ Look for webshell and ransomware execution.
 
 
 SS8
+<img width="1917" height="873" alt="day3ss8" src="https://github.com/user-attachments/assets/e0f3eb84-865c-4135-a0d7-0a7105b23740" />
 
 ## Correlate Outbound C2 Communication
 
@@ -157,6 +166,7 @@ Pivot to firewall logs for post-exploitation.
 
 
 SS9
+<img width="1897" height="861" alt="day3ss9" src="https://github.com/user-attachments/assets/4bd96a6b-2c73-43e4-9936-3391c4c9c07b" />
 
 ## Volume of Data Exfiltrated
 
@@ -168,6 +178,7 @@ Calculate transferred bytes.
 
 
 SS10
+<img width="1901" height="311" alt="day3ss10" src="https://github.com/user-attachments/assets/8493916c-a4a5-4d60-95a9-e5803b6cc085" />
 
 
 ---
