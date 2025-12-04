@@ -141,11 +141,11 @@ apt install -y steghide
 
 apt install -y exiftool
 
-apt install -y airgeddon
 
 # check for exiftool, pdfinfo,
 # unrelated web stuff ----curl, strings
 
+apt install -y airgeddon
 
 # final updating
 echo "Running final apt update and full-upgrade..."
