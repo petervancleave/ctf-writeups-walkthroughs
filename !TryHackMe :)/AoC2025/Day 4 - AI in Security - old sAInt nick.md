@@ -16,7 +16,8 @@
 - Navigate to [http://10.82.183.70](http://10.82.183.70) (or your MACHINE_IP).
 - Click "Complete Stage" to start. 
 
-**SS0**
+SS0
+<img width="1280" height="832" alt="ss0" src="https://github.com/user-attachments/assets/10d9e78b-4e22-4837-bcd7-45363f9efc1a" />
 
 #### Stage 2: Red Team (Offensive) – Generate Exploit Script
 
@@ -52,7 +53,8 @@ print(response.text)
 - Output: 200 OK → Dashboard with "Welcome, admin!" and **FLAG: THM{SQLI_EXPLOIT}** in alert box. (Full response shows headers/body with exploit success.) 
 
 
-**SS1**
+SS1
+<img width="1452" height="882" alt="SS1" src="https://github.com/user-attachments/assets/ade8e4ab-1d96-439d-8a81-65825ed1b7e2" />
 
 #### Stage 3: Blue Team (Defensive) – Analyze Logs
 
@@ -64,6 +66,7 @@ print(response.text)
 ```
 
 SS2
+<img width="1350" height="850" alt="SS2" src="https://github.com/user-attachments/assets/272ee589-bae5-4725-a62e-c135c9889241" />
 
 #### Stage 4: Software – Code Vuln Analysis
 
@@ -83,6 +86,7 @@ Findings:
 4. **Tools**: OWASP ZAP, SQLMap for testing; integrate SAST in dev pipeline.
 
 SS3
+<img width="1401" height="833" alt="SS3" src="https://github.com/user-attachments/assets/28279fb7-6529-45d6-81ec-db5ccc7f7c5f" />
 
 
 ---
