@@ -28,13 +28,13 @@ XueXuN
 FoXW$
 ```
 
-SS1
+<img width="300" height="302" alt="bctf19851" src="https://github.com/user-attachments/assets/dc850970-6ee6-418b-9486-fcd863f2b319" />
 
 Step 3 – Static analysis of the binary Opened the file in a hex editor (Okteta). The beginning contained executable code, and at offset 0x1C the encrypted payload started.
 
 The first few instructions (starting at 0x100, normal for .COM files) were:
 
-SS2
+<img width="1041" height="347" alt="bctf19852" src="https://github.com/user-attachments/assets/b54ae793-233e-4bdf-98cc-f9176743893c" />
 
 ```asm
 0100: BE 1C 01          mov     si, 011Ch      ; point to start of encrypted data
