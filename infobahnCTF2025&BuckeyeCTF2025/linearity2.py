@@ -1,6 +1,3 @@
-# solve_chall2_single.py
-# Single-process solver. Works on Windows and Linux.
-# Usage: python solve_chall2_single.py
 from hashlib import sha256
 from itertools import product
 import time
@@ -16,13 +13,11 @@ TARGET_HASH = "e256693b7b7d07e11f2f83f452f04969ea327261d56406d2d657da1066cefa17"
 def m_coord(i):
     return ((i // 5) % 5, i % 5)
 
-# map each M entry to the list of positions that use it
 coords = [m_coord(i) for i in range(len(C))]
 coord_to_positions = {}
 for idx, coord in enumerate(coords):
     coord_to_positions.setdefault(coord, []).append(idx)
 
-# generate per-position printable candidates (t in 0..100)
 def per_position_candidates():
     res = []
     for i, cval in enumerate(C):
@@ -39,13 +34,10 @@ def per_position_candidates():
 
 candidates = per_position_candidates()
 
-# Useful diagnostic: print per-position candidate counts (comment out if noisy)
 print("Per-position candidate sizes:", [len(x) for x in candidates])
 
-# Restrict to a realistic CTF-style charset. Adjust if you know different flag alphabet.
 ALLOWED = set("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789{}_")
 
-# Build grouped units: for each unique M (coord) produce all consistent assignments (tuples)
 group_units = []
 group_positions = []
 for coord, positions in coord_to_positions.items():
@@ -55,7 +47,6 @@ for coord, positions in coord_to_positions.items():
     else:
         lists = [[ch for ch in candidates[p] if ch in ALLOWED] for p in positions]
         tuples = []
-        # cartesian product across positions, keep only those where all yield same M
         for prod in product(*lists):
             base = ord(prod[0]) ^ C[positions[0]]
             ok = True
@@ -79,14 +70,11 @@ for s in sizes:
 print("Groups:", len(group_units), "Group sizes:", sizes)
 print("Total combinations to try:", total)
 
-# Iterate groups in natural order. This will try total combinations.
 start = time.time()
 count = 0
-report_every = max(1, total // 1000)  # report ~1000 times or at least once per unit if small
+report_every = max(1, total // 1000)  
 
-# Outer loop: product over group_units
 for assignment in product(*group_units):
-    # assemble flag characters
     flag_chars = [''] * len(C)
     for gidx, tup in enumerate(assignment):
         pos_list = group_positions[gidx]
@@ -108,3 +96,4 @@ for assignment in product(*group_units):
 elapsed = time.time() - start
 print("\nExhausted search. Tried:", count, "Elapsed:", elapsed)
 print("No match found. If nothing found, try expanding ALLOWED or verify V/C/TARGET_HASH values.")
+
