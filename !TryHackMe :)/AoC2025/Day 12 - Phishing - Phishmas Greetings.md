@@ -36,6 +36,7 @@ Tip: Hover links (don't click); decode punycode with tools like punycode.de; ver
 Email 1 - Invoice from Santa Clause
 
 SS1
+<img width="1893" height="870" alt="ss1" src="https://github.com/user-attachments/assets/37c865f6-8f2a-4be6-931a-5b3eaff30645" />
 
 At first glance the email content looks benign and legitimate, the from address looks normal:
 "service@paypal.com" <service@paypal.com>
@@ -71,25 +72,30 @@ If we dig deeper and look at the headers, we get a better idea of this email's i
 |MIME-Version|1.0|
 
 SS2
+<img width="1297" height="513" alt="ss2" src="https://github.com/user-attachments/assets/843796b6-3cd9-4051-99fe-41a6b63b7f1b" />
 
 A lot of the authentication protocols fail and the return path is to a different address.
 (spf = fail, dkim = fail, dmarc = fail, received spf = fail)
 
 SS3 
+<img width="1295" height="527" alt="ss3" src="https://github.com/user-attachments/assets/f75cb951-c6e2-4fb6-b1d8-fee9f20d0559" />
 
 We can classify this as phishing with the following signals: sense of urgency, fake invoice, spoofing
 
 SS4
+<img width="1316" height="456" alt="ss4" src="https://github.com/user-attachments/assets/664ac101-3ee3-45d5-9b45-375d3bcc225e" />
 
 ---
 
 Email 2 - New Audio Message from McSkidy
 
 SS5
+<img width="1860" height="851" alt="ss5" src="https://github.com/user-attachments/assets/2c760c7e-f2db-4771-adc4-4bf1335e5ed3" />
 
 The message overview seems fine, there is a suspicious attachment which is a .html file when we were expecting an audio file. 
 
 SS6
+<img width="1322" height="251" alt="ss6" src="https://github.com/user-attachments/assets/e6d4fa2c-5044-48b6-bad0-e4399c708ac1" />
 
 The headers are"
 
@@ -119,6 +125,7 @@ The authentication protocols fail, the received spf fails, and the return path d
 We can classify this email as phishing with the signals: impersonation, spoofing, and malicious attachment
 
 SS7
+<img width="1300" height="440" alt="ss7" src="https://github.com/user-attachments/assets/421e38f1-5fd1-4619-b60e-6ac96f5d3d7d" />
 
 ---
 
@@ -127,6 +134,7 @@ Email 3 - URGENT: McSkidy VPN access for incident response
 Off the bat, the title of the email has a fully capitalized "URGENT" which is an immediate red flag.
 
 SS8
+<img width="1857" height="846" alt="ss8" src="https://github.com/user-attachments/assets/3cf7f941-58ef-4c96-ae3b-31ec971ca6b2" />
 
 The content of the email is also creating a sense of urgency with many calls to action. There is also the fact that the email is a personal gmail account and they are asking for credentials to be sent through email which is a red flag. It also appears to be impersonating McSkidy.
 
@@ -158,14 +166,17 @@ The headers looks fine, the authentication protocols pass and the received spf p
 We can classify this as phishing with the signals: Impersonation, social engineering text, sense of urgency.
 
 SS9
+<img width="1287" height="382" alt="ss9" src="https://github.com/user-attachments/assets/3c29c4ec-7b99-4fbe-9cf1-d984cab79aff" />
 
 ---
 
 Email 4 - TBFC HR Department shared "Annual Salary Raise Approval.pdf" with you
 
 SS10
+<img width="1857" height="881" alt="ss10" src="https://github.com/user-attachments/assets/7d3e33b8-ccb9-42e7-aed3-7c928b736e05" />
 
 SS11
+<img width="685" height="662" alt="ss11" src="https://github.com/user-attachments/assets/82b712c6-b1b9-4828-aacc-288052f35212" />
 
 
 The attachment looks fairly suspicious, especially the file name: https://www.dropbox.com/scl/fi/xzruzfwqa4w77ozxvq00i/annual-salary-raise-approval.pdf?blablablabla
@@ -199,12 +210,14 @@ The authentication protocols pass, but the reply-to address seems like a false d
 We can classify this email as phishing with the signals: impersonation, external sender domain, social engineering text
 
 SS12
+<img width="1282" height="392" alt="ss12" src="https://github.com/user-attachments/assets/c3abea23-673b-47fa-8c45-2ad1ac0392ad" />
 
 ---
 
 Email 5 -  Improve your event logistics this SOC-mas season
 
 SS13
+<img width="1863" height="962" alt="ss13" src="https://github.com/user-attachments/assets/00b886f0-8aaf-4e88-a2be-b1a34cf2ce10" />
 
 The content doesn't look suspicious, just kind of spammy marketing email.
 
@@ -239,12 +252,14 @@ The return path matches and the authentication protocols pass.
 This would be classified as a spam email
 
 SS14
+<img width="1092" height="141" alt="ss14" src="https://github.com/user-attachments/assets/07e2f74f-1f60-4a9c-a7dd-49ffb1d5b7bc" />
 
 --- 
 
 Email 6 - TBFC-IT shared "Christmas Laptop Upgrade Agreement" with you
 
 SS15
+<img width="1867" height="871" alt="ss15" src="https://github.com/user-attachments/assets/3b4d559b-b0ec-41e9-bf57-34fa4c170e43" />
 
 Immediately we see the from address: TBFC-IT <tbfc-it@tbƒc.com>
 uses a latin character for 'f' so this is potential typosquatting/punycodes
@@ -283,4 +298,5 @@ The authentication protocols pass, but the return path does not match the sender
 We can classify this email as phishing with the signals: impersonation, typosquatting/punycodes, and social engineering text.
 
 SS16
+<img width="1245" height="371" alt="ss16" src="https://github.com/user-attachments/assets/97a990c8-8f44-46fc-a1b5-8cbebf147ca3" />
 
