@@ -9,6 +9,10 @@ These hives cannot be opened directly because they contain binary data. Instead,
 
 From a forensic perspective, the registry is extremely valuable. It records evidence of program execution, installed applications, USB devices, user searches, startup persistence mechanisms, and much more. During investigations, analysts often extract registry hives from a compromised system and analyze them offline to avoid modifying evidence. Because the built in Registry Editor cannot load offline hives or easily interpret binary data, specialized tools such as Registry Explorer are used for registry forensics.
 
+<img width="1875" height="832" alt="ss1" src="https://github.com/user-attachments/assets/f778a1c3-9ff2-48d3-87fe-83399a9387b0" />
+
+<img width="282" height="430" alt="ss2" src="https://github.com/user-attachments/assets/76c958b1-e482-4e83-9b4e-1c4da58f05c7" />
+
 ---
 
 |Hive on Disk|Where You See It in Registry Editor|
@@ -43,7 +47,15 @@ Begin by deploying the machine attached to the task. Once the system is running,
 
 Load the **SOFTWARE** hive in Registry Explorer. Navigate to: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
 
+<img width="1152" height="670" alt="ss3" src="https://github.com/user-attachments/assets/bb45a019-ffa2-442c-b214-dea2e3ca8aff" />
+
+
 Sort entries by timestamp (or search for dates around Oct 21, 2025). The only entry with that timestamp is **Drone Manager Updater** (installed on 2025-10-21).
+
+<img width="1428" height="750" alt="ss4" src="https://github.com/user-attachments/assets/e6ad1f63-7eab-4823-8cab-82a90caa3796" />
+
+<img width="1426" height="741" alt="ss5" src="https://github.com/user-attachments/assets/fe1d49d6-4b3e-410b-a2cd-2fa77ab0546a" />
+
 
 ### Task 3: What is the full path where the user launched the application (found in question 1) from?
 
@@ -51,11 +63,17 @@ Load the **NTUSER.DAT** hive (for the user dispatch.admin). Navigate to: HKCU\So
 
 This key tracks GUI-launched applications (with ROT13-encoded names). Sort by last run timestamp. Find the entry for the installer: C:\Users\dispatch.admin\Downloads\dronemanager_setup.exe (accessed on 2025-10-21).
 
+<img width="1532" height="733" alt="ss6" src="https://github.com/user-attachments/assets/0389a903-25b0-437b-b1c1-c4be2364f756" />
+
+
 ### Task 4: Which value was added by the application to maintain persistence on startup?
 
 Load the **SOFTWARE** hive again. Navigate to: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
 
 Look for autostart entries. The persistence value is **dronehelper.exe -background** (pointing to C:\Program Files\drone manager\dronehelper.exe), ensuring the malware runs on startup/login.
+
+<img width="1533" height="740" alt="ss7" src="https://github.com/user-attachments/assets/58b91d9a-5387-40bb-bb88-0c3796bfdaa0" />
+
 
 ---
 
