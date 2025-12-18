@@ -468,6 +468,9 @@ A: THM{C2_De0bfuscation_29838}
 
 Now we have to obfuscate the API key `CANDY-CANE-API-KEY` using XOR single-byte key 0x37 and convert to hexidecimal, add the hex string to the $ObfAPieEy variable and run the script again to receive the second flag.
 
+<img width="1532" height="758" alt="SS1day18" src="https://github.com/user-attachments/assets/5f869ac0-c403-4684-b37b-2d552a4ac633" />
+
+
 We then get the output: 747679736e1a747679721a76677e1a7c726e
 
 and when we run the script again, we retrieve the flag
