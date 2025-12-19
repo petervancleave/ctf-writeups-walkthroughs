@@ -55,7 +55,7 @@ Step 4 – Extract & decrypt the payload Took all bytes from offset 0x1C until (
 
 XOR’d every byte with 0x2A. The result (ignoring the final decrypted control char) was:
 
-bctf{D1d_y0u_Us3_An_3mul4t0r_Or_d3c0mp1lEr}
+bctf{D1d_y0u_Us3_An_3mul4t0r_<REDCATED>}
 
 ---
 
