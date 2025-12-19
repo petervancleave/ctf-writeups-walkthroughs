@@ -59,7 +59,7 @@ Because the flag format is obvious (infobahn{...}) we can even restrict the cand
 
 After running the search (single-threaded Python script, finishes in < 2 seconds on a laptop), the unique flag that matches the hash is:
 
-**Flag:** infobahn{You_HAVE_Aff1niTy_f0rCrypto}
+**Flag:** infobahn{You_HAVE_Aff1niTy_<REDACTED>}
 
 
 ---
