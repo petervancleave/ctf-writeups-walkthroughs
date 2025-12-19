@@ -91,6 +91,6 @@ Python has an easter egg module `this` and when it is imported, Python prints ou
 
 
 ```bash
-infobahn{Y0u_3Sc4p3D_Th3_J@1lll_4359849084894}
+infobahn{Y0u_3Sc4p3D_Th3_J@1lll_<REDCATED>}
 ```
 
