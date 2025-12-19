@@ -95,5 +95,6 @@ for assignment in product(*group_units):
 
 elapsed = time.time() - start
 print("\nExhausted search. Tried:", count, "Elapsed:", elapsed)
-print("No match found. If nothing found, try expanding ALLOWED or verify V/C/TARGET_HASH values.")
+print("No match found.")
+
 
