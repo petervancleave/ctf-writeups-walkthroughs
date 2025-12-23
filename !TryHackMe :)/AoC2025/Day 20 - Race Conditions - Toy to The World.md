@@ -1,3 +1,10 @@
+# Race Conditions - Toy to The World
+
+<img width="900" height="900" alt="62a7685ca6e7ce005d3f3afe-1763479664712" src="https://github.com/user-attachments/assets/edadff13-51f2-48e1-ae89-ecba4a8169e7" />
+
+https://tryhackme.com/room/race-conditions-aoc2025-d7f0g3h6j9
+
+
 A race condition occurs when multiple actions are executed at the same time and the final outcome depends on the order in which those actions complete. In web applications, race conditions typically arise when multiple requests interact with shared resources such as inventory counts, account balances, or order states without proper synchronization.
 
 When an application fails to control concurrent access, attackers can exploit timing issues to trigger unintended behavior, such as duplicate purchases, negative inventory values, or unauthorized state changes.
