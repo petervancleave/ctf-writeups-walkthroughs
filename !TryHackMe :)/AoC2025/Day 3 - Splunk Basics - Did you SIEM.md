@@ -1,3 +1,11 @@
+# Splunk Basics - Did you SIEM?
+
+<img width="900" height="900" alt="5e8dd9a4a45e18443162feab-1762518888961" src="https://github.com/user-attachments/assets/71663023-561e-4407-ae5e-78dcdd3a323a" />
+
+
+https://tryhackme.com/room/splunkforloganalysis-aoc2025-x8fj2k4rqp
+
+
 The room focuses on investigating an incident involving King Malhare and his Bandit Bunnies using Splunk to analyze web traffic and firewall logs. It's all about ingesting and interpreting logs, creating field extractions, using SPL for filtering, and uncovering insights step by step.
 
 ## Learning Objectives
