@@ -77,4 +77,5 @@ Q: What type of privilege escalation are most IDOR cases?
 A: Horizontal
 
 Q: Exploiting the IDOR found in the `view_accounts` parameter, what is the `user_id` of the parent that has 10 children?
+
 A: 15
