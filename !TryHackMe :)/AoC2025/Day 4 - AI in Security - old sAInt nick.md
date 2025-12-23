@@ -1,5 +1,10 @@
+# AI in Cyber Security: old sAInt nick
 
-# AI in Cyber Security:
+<img width="900" height="900" alt="5de96d9ca744773ea7ef8c00-1762182384720" src="https://github.com/user-attachments/assets/578100f7-7e9f-4a98-b727-a3047f674ccd" />
+
+
+https://tryhackme.com/room/AIforcyber-aoc2025-y9wWQ1zRgB
+
 
 |Feature|Cyber Relevance|
 |---|---|
