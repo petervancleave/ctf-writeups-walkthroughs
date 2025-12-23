@@ -1,3 +1,10 @@
+# Network Discovery - Scan-ta Clause
+
+<img width="900" height="900" alt="678ecc92c80aa206339f0f23-1761778821176" src="https://github.com/user-attachments/assets/c8b27e34-9ed9-4d30-ad1b-ddcffc4d68f9" />
+
+
+https://tryhackme.com/room/networkservices-aoc2025-jnsoqbxgky
+
 
 ## Discovering Exposed Services Summary
 
