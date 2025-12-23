@@ -1,3 +1,10 @@
+# Obfuscation - The Egg Shell File
+
+<img width="900" height="900" alt="5f9c7574e201fe31dad228fc-1763962163689" src="https://github.com/user-attachments/assets/81e4c7dc-dc51-4865-8269-b6a04952aa7e" />
+
+
+https://tryhackme.com/room/obfuscation-aoc2025-e5r8t2y6u9
+
 
 ## Obfuscation
 
