@@ -1,3 +1,9 @@
+# XSS - Merry XSSMas
+
+<img width="900" height="900" alt="5f9c7574e201fe31dad228fc-1763405859947" src="https://github.com/user-attachments/assets/2449649d-8f08-4a14-8e2d-15393edb983e" />
+
+
+https://tryhackme.com/room/xss-aoc2025-c5j8b1m4t6
 
 Investigate suspicious activity in Santa's secure message portal at the North Pole workshop. Logs show odd messages (e.g., "meow meow") and weird search terms. The goal is to uncover Cross-Site Scripting (XSS) vulnerabilities in the web app.
 
