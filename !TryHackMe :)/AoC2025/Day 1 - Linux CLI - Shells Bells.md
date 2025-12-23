@@ -1,3 +1,10 @@
+# Linux CLI - Shells Bells
+
+<img width="900" height="900" alt="678ecc92c80aa206339f0f23-1761766884117" src="https://github.com/user-attachments/assets/ca7396bb-0fa7-4c35-a6d6-02be0ec5a2d4" />
+
+
+https://tryhackme.com/room/linuxcli-aoc2025-o1fpqkvxti
+
 
 Main Room – Learning Linux CLI Basics
 
