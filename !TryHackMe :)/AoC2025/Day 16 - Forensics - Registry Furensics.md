@@ -1,3 +1,10 @@
+# Forensics - Registry Furensics
+
+<img width="900" height="900" alt="6645aa8c024f7893371eb7ac-1763316546050" src="https://github.com/user-attachments/assets/92da8c14-c240-4518-a3ba-05b30339475f" />
+
+https://tryhackme.com/room/registry-forensics-aoc2025-h6k9j2l5p8
+
+
 
 ## Windows Registry Summary
 
