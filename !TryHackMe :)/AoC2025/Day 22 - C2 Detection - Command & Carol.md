@@ -1,3 +1,9 @@
+# C2 Detection - Command & Carol
+
+https://tryhackme.com/room/detecting-c2-with-rita-aoc2025-m9n2b5v8c1
+
+<img width="900" height="900" alt="66c44fd9733427ea1181ad58-1761823947148" src="https://github.com/user-attachments/assets/12ced8ac-57e5-4c30-b11a-5015d900680c" />
+
 
 ### Introduction
 
