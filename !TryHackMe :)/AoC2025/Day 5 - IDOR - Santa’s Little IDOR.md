@@ -69,9 +69,11 @@ To prevent IDOR vulnerabilities:
 ---
 
 Q: What does IDOR stand for?
+
 A: Insecure Direct Object Reference
 
 Q: What type of privilege escalation are most IDOR cases?
+
 A: Horizontal
 
 Q: Exploiting the IDOR found in the `view_accounts` parameter, what is the `user_id` of the parent that has 10 children?
