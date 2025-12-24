@@ -1,5 +1,6 @@
 # ICS/Modbus - Claus for Concern
 
+<img width="900" height="900" alt="674d9727a22822c1eb46cb31-1763551899077" src="https://github.com/user-attachments/assets/593751ab-20e7-40ae-8835-cef345dc43c9" />
 
 
 https://tryhackme.com/room/ICS-modbus-aoc2025-g3m6n9b1v4
