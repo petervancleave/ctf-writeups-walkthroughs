@@ -1,5 +1,6 @@
 # AWS Security - S3cret Santa
 
+<img width="900" height="900" alt="5ed5961c6276df568891c3ea-1761886566945" src="https://github.com/user-attachments/assets/30530d8e-6e22-4dd1-be06-5ed06fc819ae" />
 
 
 https://tryhackme.com/room/cloudenum-aoc2025-y4u7i0o3p6
