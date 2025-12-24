@@ -1,5 +1,7 @@
 # Passwords - A Cracking Christmas
 
+<img width="900" height="900" alt="5fc2847e1bbebc03aa89fbf2-1763007383191" src="https://github.com/user-attachments/assets/521ddfe0-b1de-4214-b9d4-17264c7c4caf" />
+
 
 https://tryhackme.com/room/attacks-on-ecrypted-files-aoc2025-asdfghj123
 
@@ -206,6 +208,15 @@ When detected:
 7. Rotate affected credentials and enforce MFA
     
 8. Educate users and enforce secure password policies
+
+---
+
+<img width="753" height="603" alt="ss1" src="https://github.com/user-attachments/assets/c63d4dd4-c938-454a-aeff-c69a0a0255ae" />
+
+<img width="671" height="493" alt="ss2" src="https://github.com/user-attachments/assets/d2e007e5-092f-4172-ab9b-9408fe741a33" />
+
+<img width="778" height="278" alt="ss3" src="https://github.com/user-attachments/assets/4b798fde-9d36-45a8-9625-5d08ab7a09f4" />
+
 
 ---
 
