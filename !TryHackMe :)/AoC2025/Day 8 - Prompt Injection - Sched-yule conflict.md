@@ -1,6 +1,7 @@
 
 # Prompt Injection - Sched-yule conflict
 
+<img width="900" height="900" alt="63c131e50a24c3005eb34678-1763639792321" src="https://github.com/user-attachments/assets/4212a658-41b0-42fe-8045-c8ba7a7333c0" />
 
 
 https://tryhackme.com/room/promptinjection-aoc2025-sxUMnCkvLO
