@@ -1,7 +1,7 @@
 
 # SOC Alert Triaging - Tinsel Triage
 
-![Uploading 5dbea226085ab6182a2ee0f7-1761751325593.png…]()
+<img width="900" height="900" alt="5dbea226085ab6182a2ee0f7-1761751325593" src="https://github.com/user-attachments/assets/e2383fe6-43cd-475c-b88d-a7be904c51f8" />
 
 
 https://tryhackme.com/room/azuresentinel-aoc2025-a7d3h9k0p2
