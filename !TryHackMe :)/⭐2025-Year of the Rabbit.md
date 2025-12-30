@@ -1,3 +1,14 @@
+# Year of the Rabbit
+Difficulty: Easy
+
+![c062ef0e0b4f70e51a2dafc5fc2bca0e](https://github.com/user-attachments/assets/8386dfbf-5c03-4426-8c5a-2f7c43ee06f0)
+
+
+https://tryhackme.com/room/yearoftherabbit
+
+---
+
+
 Enumeration:
 
 ```bash
