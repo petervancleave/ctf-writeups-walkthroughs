@@ -1,3 +1,8 @@
+# Internal
+
+difficulty: Hard
+
+---
 
 ```shell
 nmap 10.201.93.226 -sC -sV
