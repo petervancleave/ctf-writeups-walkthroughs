@@ -1,5 +1,5 @@
 # Corridor
-
+Difficulty: Easy 
 <img width="512" height="512" alt="04afd126bf7a729eec5ff41e5b9b1212" src="https://github.com/user-attachments/assets/9e58d2f8-2501-4e47-b797-99925ca8abb0" />
 
 
