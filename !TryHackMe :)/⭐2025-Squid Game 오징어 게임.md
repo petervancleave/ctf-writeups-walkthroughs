@@ -1,4 +1,6 @@
 # Squid Game 오징어 게임
+Difficulty: Hard
+
 <img width="90" height="90" alt="08284eeb72ad634c1678330ade91edc7" src="https://github.com/user-attachments/assets/385635c1-3e28-460c-af4e-8461fcaac83a" />
 
 "You have an invitation to play a Squid Game.In this game, you will have to play the defensive role and eliminate five attackers. Let us tell you before the game starts; this is not going to be easy. Less hints are provided in this room to challenge you. You won't believe it, but sometimes the best way to learn is to do your own research and come up with your own approach to solve the challenges. You will have all the necessary tools needed in the Virtual Machine to complete the challenge."
