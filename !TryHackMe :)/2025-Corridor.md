@@ -1,5 +1,6 @@
 # Corridor
 
+<img width="512" height="512" alt="04afd126bf7a729eec5ff41e5b9b1212" src="https://github.com/user-attachments/assets/9e58d2f8-2501-4e47-b797-99925ca8abb0" />
 
 
 https://tryhackme.com/room/corridor
@@ -11,12 +12,14 @@ The challenge reads:
 I can visit the site since it is on port 80
 
 SS1
+<img width="1850" height="952" alt="Screenshot 2025-12-29 224552" src="https://github.com/user-attachments/assets/027cc6fa-c1dc-4774-a4e4-9016b294c702" />
 
 If you hover over each door with your cursor, a unique hash corresponding to each door pops up.
 
 Taking a look at the site's source code should display all of them neatly.
 
 SS2
+<img width="1014" height="494" alt="Screenshot 2025-12-29 224743" src="https://github.com/user-attachments/assets/a3093e52-1143-4a1e-81c5-64cdf31e3265" />
 
 Copy them all out of the code so you can work with them neatly:
 ```text
@@ -70,10 +73,12 @@ Each hash value corresponds to a digit 1-13
 Clicking on each door reveals a blank room, so the thought is to edit the url to an md5 hash of the number 0 which is `cfcd208495d565ef66e7dff9f98764da`
 
 SS3
+<img width="1524" height="819" alt="Screenshot 2025-12-29 225616" src="https://github.com/user-attachments/assets/65704fec-f968-495e-936d-0c6e273e33e9" />
 
 Doing so reveals the flag
 
 SS4
+<img width="1839" height="899" alt="Screenshot 2025-12-29 225640" src="https://github.com/user-attachments/assets/088c8245-e2f5-4b55-b23e-d9abc04279b0" />
 
 
 
