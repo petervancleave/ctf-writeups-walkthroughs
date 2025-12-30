@@ -1,5 +1,5 @@
 # Gallery
-
+Difficulty: Easy
 
 <img width="225" height="225" alt="c53a8eb73f24535345477fdf603fe1de" src="https://github.com/user-attachments/assets/fb790fe6-76ab-4799-a8ee-7ec32ed797fc" />
 
