@@ -1,5 +1,6 @@
 # NIS - Linux Part 1
 
+<img width="630" height="630" alt="a60460f94562420191b875ba8e7ddf5b" src="https://github.com/user-attachments/assets/506fd67a-1933-43e0-b7ee-b34cc4a86cdb" />
 
 
 https://tryhackme.com/room/nislinuxone
