@@ -6,6 +6,7 @@ Difficulty: Easy
 
 
 https://tryhackme.com/room/gallery666
+
 ---
 
 This room has two flags to identify - the user and the root flag. There are also additional questions to be answered along the way!
